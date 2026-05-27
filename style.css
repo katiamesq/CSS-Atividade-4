@@ -134,3 +134,28 @@ h1 {
     .card p {
         color: rgb(6, 43, 162);
     }
+
+    button {
+        padding: 3px 10px;
+        border-radius: 999px;
+        background: rgba(0, 0, 255, 0.764);
+        color: aliceblue;
+        border: none;
+        cursor: pointer;
+    }
+
+    .floating-button {
+        position: fixed;
+        right: 20px;
+        bottom: 20px;
+        width: 60px;
+        height: 60px;
+        background: forestgreen;
+        color: white;
+        border-radius: 50%;
+        text-align: center;
+        line-height: 60px;
+        font-size: 28px;
+        text-decoration: none;
+        box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5);
+    }
