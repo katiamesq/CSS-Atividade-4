@@ -1,0 +1,138 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: aliceblue;
+}
+
+header {
+    background-image: url(/Midia/6cb8b141-57bc-41c4-a39e-8be96bcb6850.jpg);
+    background-size: 300px;
+    padding: 30px;
+    position: sticky;
+    top: 0;
+    z-index: 100;
+
+    display: flexbox;
+    text-align: center;
+    }
+
+.container {
+    padding: 20px;
+    width: 100%;
+}
+
+h1 {
+    font-family: cursive;
+    font-size: 32px;
+    color: rgb(252, 24, 203);
+    
+    font-style: oblique;
+    text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.867);
+    /*-webkit-text-stroke: 1px rgba(0, 0, 0, 0.575);  borda*/ 
+   }
+
+   .frase {
+    color: rgb(245, 184, 223);
+    font-family: cursive;
+    font-weight: bold;
+    text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.867);
+    -webkit-text-stroke: 1px rgba(0, 0, 0, 0.375);
+    font-size: larger;
+    font-style: italic;
+   }
+
+    .sidebar {
+  position: sticky;
+  top: 180px;
+  display: inline-block;
+  vertical-align: top;
+  width: 270px;
+  background: white;
+  padding: 30px;
+  margin-right: 20px;
+  border-radius: 30px;
+  box-shadow: 3px 3px 5px;
+}
+
+.sidebar ul{
+    list-style: none;
+    margin-top: 10px;
+   }
+
+   .sidebar h2 {
+    color: rgb(2, 2, 117);
+   }
+
+   .sidebar li{
+    color: rgb(6, 43, 162);
+   }
+
+   .promoweek {
+    font-size: medium;
+    font-style: italic;
+    background-color:rgba(42, 160, 207, 0.401);
+    color: rgb(5, 71, 71);
+    border-radius: 20px;
+    margin-top: 20px;
+    }
+
+    .promo {
+       width: 80px;
+       height: 70px;
+       border-radius: 10px;
+       margin-left: 50px;
+        }
+
+    .conteudo {
+        display: inline-block;
+        vertical-align: top;
+        width: calc(100% - 350px);
+        
+
+    }
+
+    .card {
+        position: relative;
+        display: inline-block;
+        vertical-align: top;
+        width: 285px;
+        margin: 10px;
+        padding: 20px;
+        background: white;
+        border-radius: 20px;
+        box-shadow: 3px 3px 5px;
+        transition: .5s;
+    }
+
+    .card:hover {
+        transform: translateY(-5px);
+    }
+
+    .badge {
+        position: absolute;
+        top: 12px;
+        right: 12px;
+        background: crimson;
+        color: white;
+        padding: 6px 10px;
+        border-radius: 999px;
+        font-size: 12px;
+    }
+
+    .card img {
+        border-radius: 8px;
+        width: 100%;
+    }
+
+    .card h3 {
+        color: rgb(2, 2, 117);
+            }
+
+    .card p {
+        color: rgb(6, 43, 162);
+    }
