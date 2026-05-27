@@ -46,6 +46,13 @@ h1 {
     font-style: italic;
    }
 
+    .paragrafo {
+    color: rgb(2, 2, 117);
+    padding: 0 50px 10px;
+    text-align: justify;
+
+}
+
     .sidebar {
   position: sticky;
   top: 180px;
@@ -120,6 +127,17 @@ h1 {
         padding: 6px 10px;
         border-radius: 999px;
         font-size: 12px;
+    }
+
+    .badge2 {
+        position: absolute;
+        top: 100px;
+        right: 50px ;
+        background: crimson;
+        color: gold;
+        padding: 5px 10px;
+        border-radius: 999px;
+        font-size: 20px;
     }
 
     .card img {
