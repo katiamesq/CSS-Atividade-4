@@ -92,9 +92,7 @@ h1 {
         display: inline-block;
         vertical-align: top;
         width: calc(100% - 350px);
-        
-
-    }
+        }
 
     .card {
         position: relative;
